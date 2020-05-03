@@ -47,10 +47,10 @@ constexpr auto kDefaultMaxLedBrightness = 255;
 constexpr auto kDefaultMaxScreenBrightness = 4095;
 
 // Each step will stay on for 50ms by default.
-constexpr auto kRampStepDuration = 50;
+constexpr auto kRampStepDuration = 26;
 
 // Each value represents a duty percent (0 - 100) for the led pwm.
-constexpr std::array kBrightnessRamp = {0, 12, 25, 37, 50, 72, 85, 100};
+constexpr std::array kBrightnessRamp = {0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100};
 
 // Write value to path and close file.
 bool WriteToFile(const std::string& path, uint32_t content) {
