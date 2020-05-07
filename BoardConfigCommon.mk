@@ -26,9 +26,6 @@ COMMON_PATH := device/xiaomi/sdm660-common
 
 BOARD_VENDOR := xiaomi
 
-# Use Snapdragon LLVM, if available
-TARGET_USE_SDCLANG := true
-
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
 TARGET_NO_BOOTLOADER := true
@@ -127,6 +124,12 @@ ifeq ($(HOST_OS),linux)
       WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
     endif
   endif
+endif
+
+# FM
+ifeq ($(BOARD_HAVE_QCOM_FM),true)
+AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
+BOARD_HAS_QCA_FM_SOC := cherokee
 endif
 
 # GPS
