@@ -956,7 +956,30 @@
         <item>1097</item>
         <item>1808</item>
         <item>2981</item>
+		<item>3720</item>
         <item>5000</item>
+    </integer-array>
+	
+	<integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>1</item>
+        <item>14</item>
+        <item>27</item>
+        <item>40</item>
+        <item>53</item>
+        <item>66</item>
+        <item>79</item>
+        <item>92</item>
+        <item>105</item>
+        <item>118</item>
+        <item>131</item>
+		<item>144</item>
+		<item>157</item>
+		<item>170</item>
+		<item>183</item>
+		<item>196</item>
+		<item>209</item>
+		<item>222</item>
+		<item>255</item>
     </integer-array>
 
 
