@@ -933,10 +933,6 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
 	
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-	
-	<bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
-	 
-	<bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
@@ -982,11 +978,12 @@
         <item>389.70</item>  <!-- 5000+ -->
     </array>
 	
-	<integer name="config_autoBrightnessBrighteningLightDebounce">3000</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
+	<integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+	
+    <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
 
     <!-- Period of time in which to consider light samples in milliseconds. -->
-    <integer name="config_autoBrightnessAmbientLightHorizon">10000</integer>
+    <integer name="config_autoBrightnessAmbientLightHorizon">16000</integer>
 	
 	<integer name="config_notificationsBatteryLowARGB">0xFFFFFFFF</integer>
 
