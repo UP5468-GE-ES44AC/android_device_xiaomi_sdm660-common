@@ -96,10 +96,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.video.disable.ubwc=1 \
     vidc.enc.dcvs.extra-buff-count=2
 
-# Codec2 switch
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.media.codec2=2
-
 # CNE
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.vendor.cne.feature=1
@@ -129,21 +125,24 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
-# Media
-PRODUCT_PROPERTY_OVERRIDES += \
-    media.stagefright.thumbnail.prefer_hw_codecs=true \
-    vendor.vidc.dec.enable.downscalar=1 \
-    vendor.vidc.enc.disable_bframes=1
-
-# Netflix
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.netflix.bsp_rev=Q660-13149-1
-
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1  \
     persist.dbg.wfc_avail_ovr=1
+
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.stagefright.omx_default_rank.sw-audio=1 \
+    debug.stagefright.omx_default_rank=0 \
+    media.stagefright.thumbnail.prefer_hw_codecs=true \
+    vendor.vidc.dec.enable.downscalar=1 \
+    vendor.vidc.enc.disable_bframes=1 \
+    vendor.vidc.enc.disable.pq=true
+
+# Netflix
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.netflix.bsp_rev=Q660-13149-1
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -185,3 +184,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.debug.wfd.enable=1 \
     ro.setupwizard.mode=DISABLED
+

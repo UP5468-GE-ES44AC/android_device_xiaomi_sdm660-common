@@ -265,10 +265,10 @@ vendor/lib/libsdm-diag.so|b1813c5639553537ccda31b2e44b5d4a85eb2adc
 vendor/lib/libsdmextension.so|37d5fca198c8e8526d6a4cb95f9c4bdf719e0efd
 vendor/lib/libtinyxml2_1.so|f54f81359c78715315bc24678c34c129413e6c92
 vendor/lib64/libqseed3.so|6779AAF96283E244122F4CC76CD3CB750FF14ED5
-vendor/lib64/libsdm-color.so|ed022cfcc1546c11b82991986e0a938464400858
+vendor/lib64/libsdm-color.so|fb624abddaf7c5971f470c36dcdd7c7feb060352
 vendor/lib64/libsdm-diag.so|6eb99b83036f917070393fa067eaebc50a5ff307
 vendor/lib64/libsdm-disp-vndapis.so|ba4978c373f9892d884d07c4cf25dba9d73fda1f
-vendor/lib64/libsdmextension.so|264c00a0920d291700b2948b9337037684986921
+vendor/lib64/libsdmextension.so|71d2737fea43aa19216f63d551d2abf7ae02794e
 vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 
 # Graphics (Vulkan) - from jasmine V11.0.8.0.QDIMIXM
@@ -295,14 +295,13 @@ vendor/lib/libsmwrapper.so|d28c31e4dd25de2eb7d1face701b0f6acf1b1d0e
 # Media - from jasmine V11.0.8.0.QDIMIXM
 lib/libFileMux.so|79661e6dffc90234ad446641264fd0fa1a3fe6ab
 lib/libmmosal.so|9464733295e192301b2577f52fab720e72c0d152
-lib/libmmparser_lite.so|3967c4cd6835f733b302b44aabff7f51c8c4db7f
+lib/libmmparser_lite.so|0547850d7e5041529e17f91f4a405aa258c429d0
 lib/libOmxMux.so|1ad1aa835a3dfb8bfea2a29291f82a173ba6a868
 lib64/libmmosal.so|9ceff2581e86d32bc2795dffb96ebe4bdc88f2f7
 vendor/lib/libAlacSwDec.so|bca4278cb74a63772a0fc369480b5d9814063d9b
 vendor/lib/libApeSwDec.so|d175422c4b2e691dd5f2a3fe0c7dbc978084e838
 vendor/lib/libdsd2pcm.so|df3b8b4f7c209f061fd6c48bf833cb2ad3342791
 vendor/lib/libFlacSwDec.so|05013a9ca75ffe5ca7ec25747679b0addabdb0c1
-vendor/lib/libgpustats.so|51338b96a0a61b1062a11723c86faba3c1f1d58e
 vendor/lib/libI420colorconvert.so|3398b258f5454361e15c063798fe03974dc1cfd4
 vendor/lib/libmm-color-convertor.so|43d7d4ac5587ecf5a7e8428e0437f45254acd767
 vendor/lib/libmmosal_proprietary.so|a339e7b1dcf86fbb3ee3262ebb15d93cbd5a1916
@@ -320,7 +319,6 @@ vendor/lib/libOmxQcelp13Dec.so|2674324f46dfb77d2e586a04d380d6cea188e79e
 vendor/lib/libOmxVideoDSMode.so|a5a6bd8e1fe4ee4ceb11ba77fae441435a4ae207
 vendor/lib/libOmxWmaDec.so|469d6be621fab38ece0921c3f08e1638556cef0f
 vendor/lib/libvqzip.so|d037d6e54f6cff1755acb5e1f04a43536bcb8acf
-vendor/lib64/libgpustats.so|b7f9e1ee3f0d86e87d96db55404f3507db8cac6f
 
 # Mlipay - from wayne V11.0.3.0.PDCCNXM
 vendor/bin/mlipayd@1.1|4c30cfd1b32f99ff3043eadca8e7a4b7b9a00c79
@@ -466,7 +464,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so|a82e851b3a2084cdb436bb3397c4ab
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|e9fea0c010f809e29333841bc9ded5ac744a55be
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|21773237c68924b6ee5a27c78a981b31c0405408
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|22ab381fb2e85004d07c5a94386f29490f17a191
-vendor/radio/qcril_database/qcril.db|f744d258289fd98da9bc68273b84fee57c873126
+vendor/radio/qcril_database/qcril.db|6d0926901523730f4f8a33518b3746ff4e601e42
 
 # Radio - from jasmine V11.0.8.0.QDIMIXM - modified
 vendor/etc/init/netmgrd.rc|213d147cfcfe175aa4cdf1a345f3b148ea72982d
@@ -475,7 +473,7 @@ vendor/etc/init/netmgrd.rc|213d147cfcfe175aa4cdf1a345f3b148ea72982d
 -product/app/imssettings/imssettings.apk|a1cc6f2e1ab37fb24dadad5d3b45c425e72c1e4a
 -product/app/uceShimService/uceShimService.apk|a4f64644c7c7f4340745df98d9da5e3243134b21
 product/lib64/lib-imscamera.so|8611f22989e922c9bf5e55ab40b5e5021bc3f92b
-product/lib64/lib-imsvideocodec.so|0b46cf829499552526adf679d790bb43ecd8bded
+product/lib64/lib-imsvideocodec.so|c2e541068f9195888deaa9807cd8025587a0aae6
 product/lib64/lib-imsvt.so|02a422f752ae83d2c9c376d2a78056605bcf962c
 product/lib64/lib-imsvtextutils.so|c065912c11045bbccc06e98782963d1492e21e1a
 product/lib64/lib-imsvtutils.so|bf2da369eabe1d93f14ba8388b3ae8d98e767a2d
