@@ -295,7 +295,7 @@ vendor/lib/libsmwrapper.so|d28c31e4dd25de2eb7d1face701b0f6acf1b1d0e
 # Media - from jasmine V11.0.8.0.QDIMIXM
 lib/libFileMux.so|79661e6dffc90234ad446641264fd0fa1a3fe6ab
 lib/libmmosal.so|9464733295e192301b2577f52fab720e72c0d152
-lib/libmmparser_lite.so|3967c4cd6835f733b302b44aabff7f51c8c4db7f
+lib/libmmparser_lite.so|0547850d7e5041529e17f91f4a405aa258c429d0
 lib/libOmxMux.so|1ad1aa835a3dfb8bfea2a29291f82a173ba6a868
 lib64/libmmosal.so|9ceff2581e86d32bc2795dffb96ebe4bdc88f2f7
 vendor/lib/libAlacSwDec.so|bca4278cb74a63772a0fc369480b5d9814063d9b
@@ -464,7 +464,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so|a82e851b3a2084cdb436bb3397c4ab
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|e9fea0c010f809e29333841bc9ded5ac744a55be
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|21773237c68924b6ee5a27c78a981b31c0405408
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|22ab381fb2e85004d07c5a94386f29490f17a191
-vendor/radio/qcril_database/qcril.db|f744d258289fd98da9bc68273b84fee57c873126
+vendor/radio/qcril_database/qcril.db|6d0926901523730f4f8a33518b3746ff4e601e42
 
 # Radio - from jasmine V11.0.8.0.QDIMIXM - modified
 vendor/etc/init/netmgrd.rc|213d147cfcfe175aa4cdf1a345f3b148ea72982d
@@ -473,7 +473,7 @@ vendor/etc/init/netmgrd.rc|213d147cfcfe175aa4cdf1a345f3b148ea72982d
 -product/app/imssettings/imssettings.apk|a1cc6f2e1ab37fb24dadad5d3b45c425e72c1e4a
 -product/app/uceShimService/uceShimService.apk|a4f64644c7c7f4340745df98d9da5e3243134b21
 product/lib64/lib-imscamera.so|8611f22989e922c9bf5e55ab40b5e5021bc3f92b
-product/lib64/lib-imsvideocodec.so|0b46cf829499552526adf679d790bb43ecd8bded
+product/lib64/lib-imsvideocodec.so|c2e541068f9195888deaa9807cd8025587a0aae6
 product/lib64/lib-imsvt.so|02a422f752ae83d2c9c376d2a78056605bcf962c
 product/lib64/lib-imsvtextutils.so|c065912c11045bbccc06e98782963d1492e21e1a
 product/lib64/lib-imsvtutils.so|bf2da369eabe1d93f14ba8388b3ae8d98e767a2d
