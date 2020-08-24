@@ -1,3 +1,6 @@
+# MISC_WRITER - from flame(P4)
+vendor/bin/misc_writer|691f2df17565fbaf4ab9d0f06981699c6c6c9e5a
+
 # ADSP - from jasmine V11.0.8.0.QDIMIXM
 vendor/bin/adsprpcd|0cdd541ee0a365c5dccd0613e495611f4d0f6607
 vendor/lib/libadsp_default_listener.so|85bdbaf59256e3a01e3d1bf1f5ac753eea4f935b
